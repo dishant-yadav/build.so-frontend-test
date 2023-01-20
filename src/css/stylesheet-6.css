@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Poppins;
+}
+
+.font-medium {
+  font-weight: 400;
+  margin-bottom: -15px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 50px;
+}
+
+.amount-money {
+  font-size: 64px;
+  margin-bottom: 2px;
+}
+
+.accordion,
+.accordion-item .accordion-head,
+.accordion-body {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.accordion-item {
+}
+
+.accordion-button {
+  border: none;
+}
+
+.accordion-button,
+.accordion-body {
+  padding: 10px;
+}
+
+.accordion-body {
+}
+
+.accordion-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.closed {
+  transform: rotate(45deg);
+}
+
+.svg-closed {
+  height: 2rem;
+  min-width: 2rem;
+}
+
+.collapsed {
+  display: none;
+}
+
+button {
+}
+
+.profile-image {
+  border-radius: 4pt;
+  max-width: 250px;
+  aspect-ratio: 1;
+  min-width: 210px;
+  width: 70px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.profile-image-container {
+  display: flex;
+  margin: 10px;
+}
+
+.profile-image-container > div {
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-div {
+  padding-block: 40px;
+}
+
+.apply-now {
+  width: 100px;
+}
+
+@media screen and (min-width: 720px) {
+  .center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .amount-money {
+    font-size: 60px;
+  }
+
+  .btn-bock {
+    max-width: fit-content;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .first-div {
+    border-right: 1px solid black;
+  }
+  .second {
+    border-left: 1px solid black;
+  }
+  .first-div,
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 50px;
+  }
+
+  .card > div {
+  }
+}
+.vertical {
+  transform: rotate(90deg);
+}
